@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dusan Jeremic</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a href="#" class="navbar-brand">Gym</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#skills">Services</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill one"></div>
+                <div class="carousel-caption">
+                    <h3>Example one</h3>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill two"></div>
+                <div class="carousel-caption">
+                    <h3>Example two</h3>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill three"></div>
+                <div class="carousel-caption">
+                    <h3>Example three</h3>
+                </div>
+            </div>
+        </div>
+        <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a href="#myCarousel" class="right carousel-control" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+    <div class="container" id="skills">
+        <div class="row">
+            <h3>SERVICES</h3>
+            <div class="col-sm-4 col-xs-12">
+                <div class="box">
+                    <div>
+                        <h3>Lorem</h3>
+                        <p class="services">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi commodi possimus dolorem quibusdam, veniam dolorum perferendis repudiandae architecto id ipsa quo at cupiditate fugiat saepe cum eveniet quia atque sed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="box">
+                    <div>
+                        <h3>Lorem</h3>
+                        <p class="services">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi commodi possimus dolorem quibusdam, veniam dolorum perferendis repudiandae architecto id ipsa quo at cupiditate fugiat saepe cum eveniet quia atque sed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="box">
+                    <div>
+                        <h3>Lorem</h3>
+                        <p class="services">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi commodi possimus dolorem quibusdam, veniam dolorum perferendis repudiandae architecto id ipsa quo at cupiditate fugiat saepe cum eveniet quia atque sed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="gallery">
+                    <ul class="showcase">
+                        <li>
+                            <figure class="photo">
+                                <img src="img/gym.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="photo">
+                                <img src="img/gym1.jpeg" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="photo">
+                                <img src="img/gym2.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="photo">
+                                <img src="img/gym3.jpg" alt="">
+                            </figure>
+                        </li>
+                    </ul>
+                    <ul class="showcase">
+                        <li>
+                            <figure class="photo">
+                                <img src="img/gym4.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="photo">
+                                <img src="img/gym5.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="photo">
+                                <img src="img/gym6.jpg" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="photo">
+                                <img src="img/gym7.jpg" alt="">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="contact">
+            <div class="row">
+                <h3>Contact</h3>
+                <form method="post" action="#" class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Your email">
+                    <label for="find">How did you find us?</label>
+                    <select name="find" id="find">
+                        <option value="friends" selected>Friends</option>
+                        <option value="internet">Internet</option>
+                        <option value="ad">Advertisement</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="news">Newsletter ?</label>
+                    <input type="checkbox" name="news" id="news" checked>Yes, please<br>
+                    <label for="message">Send us a message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    <div class="wrapper">
+                        <input id="button" class="btn btn-primary" type="submit" value="Send it!">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="pull-right">
+                    <ul class="social-links">
+                        <li>
+                            <a href="#">
+                                <i class="ion-social-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="ion-social-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="ion-social-googleplus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="ion-social-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="ion-social-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pull-left">
+                    <p id="foot">Lorem ipsum dolor sit amet 2017 &copy;</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+
+    </script>
+</body>
+
+</html>
